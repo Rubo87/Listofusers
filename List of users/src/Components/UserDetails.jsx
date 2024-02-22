@@ -31,7 +31,7 @@ const UserDetails = () => {
   return (
 
     <div>
-        <NavBar />
+    <NavBar />
       <p>Name: {user.name}</p>
       <p>Email: {user.email}</p>
     </div>
