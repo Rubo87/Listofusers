@@ -15,7 +15,7 @@ function App() {
         <Routes>
           <Route path='/' element= {<Home />}/>
           <Route path='/users' element= {<UsersList />}/>
-          <Route path='/user/:id' element={<UserDetails />} />
+          <Route path='/users/:userId' element={<UserDetails />} />
         </Routes>
       </ChakraProvider>
     </>
