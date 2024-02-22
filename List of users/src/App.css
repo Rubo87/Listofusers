@@ -1,42 +1,36 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+:root {
+    --chakra-fontSizes-lg: '18px';
+    --chakra-colors-gray-100: '#fafafa';
+    --chakra-colors-gray-200: '#f7f7f7';
   }
-  to {
-    transform: rotate(360deg);
+
+.NavItems {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
   }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+.NavBtn {
+    font-size: 20pt;
   }
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 18pt;
+    font-weight: 600;
+    padding: 10px;
 }
 
-.card {
-  padding: 2em;
+ .css-1idwstw {
+    display: flex;
+    background-color: rgb(209, 209, 209);
 }
 
-.read-the-docs {
-  color: #888;
+.NavBar {
+    height: 50px;
+    background-color:rgb(87, 87, 222);
 }
